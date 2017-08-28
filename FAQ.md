@@ -3,6 +3,7 @@
 #### How?
 
 * [How do I install AdNauseam?](#how-do-i-install-adnauseam)
+* [Is AdNauseam compatible with Firefox WebExt?](#is-adnauseam-compatible-with-firefox-webext)
 * [How do I install a development release of AdNauseam?](#how-do-i-install-a-development-release-of-adnauseam)
 * [Can I use AdNauseam with my current adblocker?](#can-i-use-adnauseam-with-my-current-adblocker)
 * [Does AdNauseam block ads or just hide them?](#does-adnauseam-block-ads-or-just-hide-them)
@@ -88,6 +89,12 @@ To install, follow the instructions for your browser of choice below:
 
 _Note: you should always disable other adblockers while using AdNauseam_
 
+#### Is AdNauseam compatible with Firefox WebExt?
+
+Until uBlock Origin has a stable version of WebExt ready for release,
+AdNauseam will not have a stable Web Extension ready for the store. However, uBlock's expected date of release is currently September 19th. Shortly thereafter, ADN should have a working FF57 version after we work out the issues that come with merging ADN and uBO. Keep up to date by checking the [uBO release notes](https://github.com/gorhill/uBlock/releases) and the [ADN release notes](https://github.com/dhowe/adnauseam/releases).
+
+
 #### Can I use AdNauseam with my current adblocker?
 It is possible, but since your adblocker will likely block some, or all, of the Ads AdNauseam is collecting, this is NOT recommended. For the best experience, you should disable other adblockers while using AdNauseam.
 
@@ -141,7 +148,7 @@ This means that the current page is served from a site that has committed to the
 
 #### Why does the Ad vault not load all my ads when I open it?
 
-The Ad vault limits the initial number of displayed ads to 300 when the vault opens, to avoid a long wait while images load. The user can, however, drag the date slider at bottom to show as many ads as desired. 
+The Ad vault limits the initial number of displayed ads to 300 when the vault opens, to avoid a long wait while images load. The user can, however, drag the date slider at bottom to show as many ads as desired.
 
 #### How does AdNauseam estimate the click cost it shows in the menu and vault?
 
@@ -220,11 +227,11 @@ For those who argue that advertising drives consumerism, irresponsible consumpti
 
 #### Isn't it safer just to use an adblocker? Why engage with ad-networks at all?
 
-While AdNauseam is far safer than using no blocker at all, it is indeed marginally safer for one to simply use a strong adblocker and protect themselves. But it is also safer to stay at home rather than to attend a protest. Using an adblocker does little to change the status quo (especially for those users without the resources to install/configure one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, instead presents a possible avenue for collective resistance; a means of questioning and perhaps eventually, changing the system. But this is not for everyone. If your goal is primarily self-protection, this tool may not be for you... 
+While AdNauseam is far safer than using no blocker at all, it is indeed marginally safer for one to simply use a strong adblocker and protect themselves. But it is also safer to stay at home rather than to attend a protest. Using an adblocker does little to change the status quo (especially for those users without the resources to install/configure one, and so remain at risk). AdNauseam, and the obfuscation strategy in general, instead presents a possible avenue for collective resistance; a means of questioning and perhaps eventually, changing the system. But this is not for everyone. If your goal is primarily self-protection, this tool may not be for you...
 
 ####  What must advertisers do to win the trust of Internet users?
 
-One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)). 
+One good option is to advertise on sites that respect the [EFF](https://www.eff.org)'s [Do Not Track](https://www.eff.org/dnt-policy) standard (and, incidentally, you will no longer be blocked by default in tools like AdNauseam or [PrivacyBadger](https://www.eff.org/privacybadger)).
 
 But there are many other ways that the status quo can be improved without damaging the Web ecosystem, e.g. non-tracking ads,  contextual advertising, and client-side ad profiling (see [Adnostic](http://crypto.stanford.edu/adnostic/)). Alternatively, web-sites and publishers might switch to advertising networks that don't violate the privacy of users ([Deck](http://decknetwork.net/privacy/) appears to have been one such example).
 
@@ -243,7 +250,7 @@ We understand what click-fraud is and do not believe we are engaging in it (nor 
 
 #### But what about "good" sites who don't track -- doesn't AdNauseam also block their ads?
 
-We very much believe that users should be allowed to 'whitelist' any and all sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting). 
+We very much believe that users should be allowed to 'whitelist' any and all sites they want to support. In fact, this is why we provide built-in support for the [EFF's Do Not Track](#how-and-why-does-adnauseam-make-exceptions-for-non-tracking-ads) mechanism to support sites that pledge to respect user privacy. But you can also whitelist any site, whether or not they are on the EFF's list. To learn how to add a site to your whitelist, see this [page](https://github.com/dhowe/AdNauseam/wiki/Whitelisting).
 
 #### What is the "end goal" of AdNauseam? Confusing data so it becomes useless for advertisers and forces them to react?
 
@@ -261,11 +268,11 @@ Otherwise, we are very happy with Bitcoin donations. Why Bitcoin? Because it's a
 
 If this sounds fair to you and you still want to show your support through a donation, please use the following Bitcoin address: 1NiwkdL8Dm9DiTxp7uxNVDnxESAotg6En2
 
-And again, thank you. 
+And again, thank you.
 
 #### Are you concerned that adblocking technology is part of the reason companies like Facebook are so keen to deploy "native advertising" -- Ads that masquerade as editorial content?
 
-We can't answer for Facebook's decisions to insert advertising material inadvertently into other content. Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content. 
+We can't answer for Facebook's decisions to insert advertising material inadvertently into other content. Media companies have utilized this approach before and will likely continue to attempt to confuse individuals into paying attention with new techniques, once resistance has developed to entrenched methods. In print media, some governments have found the practice sufficiently unethical to require publishers clearly to distinguish advertising from editorial content.
 
 
 ## Who?
