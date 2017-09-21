@@ -1,5 +1,6 @@
 [Google has banned AdNauseam](https://adnauseam.io/free-adnauseam.html) from its web store and have left users with no access to their data.
 
+
 ### Back up your data
 
 (if you're a new AdNauseam user jump to [Manual Install](#manual-install-in-developer-mode))
@@ -9,6 +10,8 @@
 3. Scroll down to the bottom of the page and click ``EXPORT ADS``
 
 ### Manual Install in Developer Mode
+
+###### _Warning: Do not delete the original file after installing. Google Chrome will not keep it stored unless the file is in the same spot on your computer_
 
 1. Download the ``adnauseam.chromium.ZIP`` file from the [latest release for chrome](https://github.com/dhowe/AdNauseam/releases/latest).
 1. Extract the zip file.
@@ -36,4 +39,3 @@ If Google has lost your trust, as it has ours, you might want to move to a brows
 * Go back to [Firefox](https://getfirefox.com)
 * You've always wanted to [give Opera a chance](https://opera.com), this is a good excuse
 * Try one of the many non-Google versions of Chromium (such as [Iron](https://www.srware.net/en/software_srware_iron.php), [Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php), or [Vivaldi](http://www.vivaldi.com/))
-
